@@ -1,0 +1,54 @@
+name: real_estate_app
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  bloc: ^8.1.0
+  cached_network_image: ^3.2.3
+  connectivity_plus: ^3.0.2
+  cuberto_bottom_bar: ^2.0.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  dropdown_search: ^5.0.5
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_image_slideshow: ^0.1.4
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.2.16
+  flutter_screenutil: ^5.6.0
+  flutter_secure_storage: ^6.1.0
+  flutter_typeahead: ^4.1.1
+  font_awesome_flutter: ^10.3.0
+  geolocator: ^9.0.2
+  get: ^4.6.5
+  get_it: ^7.2.0
+  google_maps_flutter: ^2.2.1
+  image_picker: ^0.8.6
+  intl: ^0.17.0
+  lit_relative_date_time: ^1.2.0
+  shared_preferences: ^2.0.17
+  shimmer: ^2.0.0
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/languages/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/real-estate-logo.png
